@@ -1,0 +1,195 @@
+body {
+	font-family:"Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    color: #c7c7c7;
+    font-size: 11pt
+}
+header, footer, body {
+    background: url(images/texture.jpg);
+}
+h1, h2, h3, h4, h6 {
+    color: #7b7562;
+    font-family: cursive;
+}
+main{
+    height: 75%;
+    margin: auto;
+    padding: 10px;
+}
+footer { 
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+form hr {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: silver;
+}
+p {
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+blockquote {
+    color: rgb(152,152,152);
+    font-family:"Droid Serif";
+    font-style: italic;
+    font-size: 18pt;
+}
+form {
+    margin: auto;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    width: 700px;
+}
+.width-container {
+    background-color: #141414;
+    width: 900px;
+}
+.nav {
+    width: 100%;
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    
+}
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(152,152,152);
+    font-family:"Droid Serif";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15pt;
+}
+.nav a:hover {
+    color: #867250;
+}
+.centre {
+    text-align: center;
+    list-style-type: none;
+}
+.centre li {
+    padding: 8px;
+}
+.menuEntrees {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.menuEntrees li {
+    padding: 8px;
+    text-align: left;
+    margin: 15px;
+}
+.menuPlats {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+.menuPlats li {
+    padding: 8px;
+    text-align: center;
+    margin: 15px;
+}
+.logoText {
+    font-family: Impact;
+    font-size: 100px;
+}
+.imgCentre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.golden {
+    font-family:"Droid Serif";
+    font-style: italic;
+    color: #7b7562;
+    font-weight: 500;
+    font-size: 17pt;
+}.smallGolden {
+    font-family:"Droid Serif";
+    font-style: italic;
+    color: #7b7562;
+    font-weight: 500;
+    font-size: 12pt;
+}
+.none {
+    margin: auto;
+}
+.none li {
+    width: 100%;
+    list-style-type: none;
+    color:aliceblue;
+    font-size: 10pt;
+    text-align: left;
+    margin-top: 4px;
+}
+.papaDiv {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.childDiv {
+    float: left;
+    width: 33%;
+}
+.spanRight {
+    float: right;
+    margin-right: 20px;
+}
+.palourdes {
+    float: right;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.imageCentre {
+    display: block;
+    margin: auto;
+}
+.paragraphBoeuf {
+    margin-bottom: 25px;
+}
+.boeufImg {
+    float: left;
+    margin: 20px;
+    border-radius: 30px;
+}
+.dessert {
+    
+    display: block;
+    margin: auto;
+}
+.questions {
+    font-family:"Droid Serif";
+    font-style: italic;
+    color: rgb(152,152,152);
+    font-size: 12pt;
+}
+table {
+    border:solid rgb(152,152,152);
+    border-width:1px;
+    border-spacing: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media(min-width:769px) and (max-width:1024px) and (orientation: landscape){
+    
+}
+@media(min-width:769px) and (max-width:1024px) and (orientation: portrait){
+
+}
